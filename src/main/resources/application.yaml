@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: lock-distribuido
+
+  cache:
+    type: redis
+    redis:
+      host: localhost
+      port: 6379
